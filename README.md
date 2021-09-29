@@ -6,7 +6,7 @@ This is an open source project where you can download for free a hight quality l
 Ci-logos is a simple web app built with Laravel. Follow the instructions below to set up the project on your local machine for development and testing purposes.
 ## Deployement
 - Clone the main branch with
-    `$ git clone --branch main https://github.com/CreativeTeamCi/cilogos.git`
+    `$ git clone --branch master https://github.com/CreativeTeamCi/cilogos.git`
 - Then install all packages in project directory with
     `$ composer install`
 - Wait for all packages to be installed and now opent and configure the .env file for the database email sending
