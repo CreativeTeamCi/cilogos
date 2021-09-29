@@ -33,7 +33,7 @@ MAIL_FROM_NAME="${APP_NAME}"
     `$ php artisan migrate:fresh --seed`
     
 - Launch command to creating the symbolic link
-    `$ php artisan storage:link
+    `$ php artisan storage:link`
 - Run the server
     `$ php artisan serve`
 
