@@ -1,0 +1,32 @@
+/* Settings re-setters */
+.crt-pb-0{
+	padding-bottom:0px;
+}
+.crt-pr-10{
+	padding-right:10px;
+}
+.crt-pl-10{
+	padding-left:10px;
+}
+.crt-prl-10{
+	padding-right:10px;
+	padding-left:10px;
+}
+.crt-pb-20{
+	padding-bottom:20px;
+}
+@media(max-width:767px){
+	.crt-mb-0{
+		margin-bottom:0px;
+	}
+	.crt-pr-10{
+		padding-right:0px;
+	}
+	.crt-pl-10{
+		padding-left:0px;
+	}
+	.crt-prl-10{
+		padding-right:0px;
+		padding-left:0px;
+	}
+}

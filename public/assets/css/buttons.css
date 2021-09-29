@@ -1,0 +1,26 @@
+.crt__btn__contribute {
+    cursor: pointer;
+    bottom: 0;
+    margin-top: 20px;
+    background-color: #EE7E37;
+    color: #FFFFFF;
+    font-size: inherit;
+    padding: 2% 2%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    transition: .2s all ease-in-out;
+}
+
+.crt__btn__submission {
+    cursor: pointer;
+    bottom: 0;
+    margin-top: 20px;
+    background: none;
+    border: 2px solid #2F9A5D;
+    color: #fff;
+    font-size: inherit;
+    padding: 2% 2%;
+    border-radius: 4px;
+    transition: .2s all ease-in-out;
+}

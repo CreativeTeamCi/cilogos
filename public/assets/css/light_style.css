@@ -1,0 +1,48 @@
+.crt-background-item{
+	border-right:1px solid #F8F8F8;
+	transition:all ease 0.3s;
+}
+.crt__btn__submission {
+    color: #000 !important;
+}
+.crt-background-item:nth-child(2n+1){
+	background:#FEFEFE;
+}
+.crt-theme-style a{
+	color:#242424;
+	transition:all ease 0.3s;
+}
+.crt-header-logo a{
+	color:#242424;
+	transition:all ease 0.3s;
+}
+.crt-header-search form input[type='text']{
+	transition:all ease 0.3s;
+}
+.crt-menu-list ul li a{
+	color:#848484;
+	transition:all ease 0.3s;
+}
+.crt-menu-list ul li a:hover{
+	color:#242424;
+	transition:all ease 0.3s;
+}
+.crt-menu-list ul li a.active{
+	color:#242424;
+	transition:all ease 0.3s;
+}
+.crt-navigation{
+	transition:all ease 0.3s;
+}
+.crt-navigation a{
+	color:#242424;
+	transition:all ease 0.3s;
+}
+.crt-footer-sn ul li a{
+	color:#242424;
+	transition:all ease 0.3s;
+}
+.crt-footer-links ul li a{
+	color:#242424;
+	transition:all ease 0.3s;
+}

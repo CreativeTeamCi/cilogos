@@ -1,0 +1,82 @@
+body{
+	background:#242424;
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+a{
+    color:#FFFFFF;
+}
+.crt-background-item{
+	border-right:1px solid #343434;
+	transition:all ease 0.3s;
+}
+.crt__logo__download__overlay a {
+	color: #000;
+	transition: all .5s ease-in-out;
+	font-size: 100%;
+}
+.crt-background-item:nth-child(2n+1){
+	background:#252525;
+}
+.crt-theme-style a{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-header-logo a{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-header-search form input[type='text']{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-header-search form input[type='submit']{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-header-search form input[type='button']{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-menu-list ul li a{
+	color:#BEBEBE;
+	transition:all ease 0.3s;
+}
+.crt-menu-list ul li a:hover{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-menu-list ul li a.active{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-post-title h3 a{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-post-title span a{
+	color:#848484;
+	transition:all ease 0.3s;
+}
+.crt-navigation{
+	transition:all ease 0.3s;
+}
+.crt-navigation a{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-footer-sn ul li a{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+.crt-footer-links ul li a{
+	color:#FFFFFF;
+	transition:all ease 0.3s;
+}
+
+.crt-boxed__shadow {
+    padding: 10px;
+    box-shadow: 2px 2px #888888;
+    background: #242424;
+    color: #fff;
+}

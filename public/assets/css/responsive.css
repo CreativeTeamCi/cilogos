@@ -1,0 +1,101 @@
+/* Theme style */
+@media(max-width:767px){
+	.crt-theme-style{
+		right:-30px;
+	}
+}
+
+/* Header */
+@media(max-width:768px){
+	.crt-header-mobile{
+		display:block;
+	}
+}
+
+/* Menu */
+@media(max-width:768px) {
+	.crt-menu {
+		position:fixed;
+		z-index:2;
+		left:-100%;
+		background:#FFFFFF;
+	}
+}
+
+/* Search */
+@media(max-width:767px){
+	.crt-search-btn{
+		z-index:3;
+	}
+}
+
+/* Main container */
+@media(max-width:1215px){
+	.crt-main h1 {
+		font-size: 20px;
+	}
+}
+
+/* Logo container */
+@media screen and (max-width: 1215px) {
+	.crt__logo {
+		width: 100%;
+	}
+	.crt__logo__download__overlay a {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.crt__logo__download__overlay a {
+		font-size: 70%;
+	}
+	.crt__logo__download__overlay--svg,
+	.crt__logo__download__overlay--png {
+		padding: 10%;
+	}
+	.crt__logo__download__overlay--svg:hover,
+	.crt__logo__download__overlay--png:hover {
+		transform: scale(1);
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.crt__logo__download__overlay a {
+		font-size: 65%;
+	}
+	.crt__logo__download__overlay--svg,
+	.crt__logo__download__overlay--png {
+		padding: 5% 2%;
+	}
+}
+
+/* 404 */
+@media(max-width:1215px){
+	.crt-404{
+		margin:0px auto;
+		width: 100%;
+	}
+	.crt-404 h1{
+		font-size: 25px;
+	}
+	.crt-404 p{
+		display: none;
+	}
+}
+
+
+/* Social Network*/
+@media(max-width:767px){
+	.crt-footer-sn ul li{
+		margin-right:5px;
+	}
+}
+
+/* Submission file */
+@media(max-width:1215px){
+	.description_input{
+		display: none;
+	}
+}
+

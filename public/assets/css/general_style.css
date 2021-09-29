@@ -1,0 +1,71 @@
+/* Import Google Fonts */
+@import 'https://fonts.googleapis.com/css?family=Material+Icons|Roboto:100,200,300,400,500,600,700,800,900|Roboto+Condensed:100,200,300,400,500,600,700,800,900|Open+Sans+Condensed:100,200,300,400,500,600,700,800,900|Righteous:100,200,300,400,500,600,700,800,900';
+
+/* Set a unified style */
+* {
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style:none;
+	border:0px;
+}
+
+body {
+	font-size:14px;
+	font-family:'Roboto';
+}
+
+a {
+	transition:all ease 0.3s;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Set a clear fix */
+.crt-clear-fix {
+	clear:both;
+}
+
+/* sticky header */
+.sticky {
+	position: fixed;
+	top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.crt-boxed__shadow {
+    padding: 10px;
+    box-shadow: 2px 2px #888888;
+    background: #fff;
+}
+
+.submit__section {
+    margin-top: 2% !important;
+    z-index: -1000;
+}
+
+/* Search item */
+.mark {
+    background-color: #d7ffe7 !important
+}
+
+.mark .gsearch{
+    font-size: 20px
+}
+
+.unmark {
+    background-color: #e8e8e8 !important
+}
+.unmark .gsearch{
+    font-size: 10px
+}
+
+.si{
+    font-weight: bold;
+    color: red;
+}
+
