@@ -47,10 +47,11 @@ $(".crt-search-btn i").on("click",function(){
 	$(".crt-header-search").css({"display":"block","opacity":"1.0"});
 	$(".crt-header-search input[type='text']").focus();
 });
-// $(".material-icons").on("click",function(){
-// 	$(".crt-header-search input[type='text']").val('');
 
-// });
+$(".material-icons").on("click",function(){
+	$(".crt-header-search input[type='text']").val('');
+
+});
 $(".crt-header-search input[type='button']").on("click",function(){
 	$(".crt-header-content > div").css("opacity","1.0");
 	$(".crt-header-search").css({"display":"none"});

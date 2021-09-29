@@ -78,13 +78,16 @@
 						<img src="{{asset('')}}assets/images/logo.png">
 					</div>
 					<h1>
-						CI Logos, une collection <a href="#" target="_blank">open source</a> de logos d'entreprise ivoiriennes de haute qualité pour une utilisation gratuite.
+						CI Logos, une collection <a href="#">open source</a> de logos d'entreprise ivoiriennes de haute qualité pour une utilisation gratuite.
 					</h1>
-					<button class="crt__btn__contribute">
-						<i class="fa fa-github"></i>
-						&nbsp;
-						Contribuer sur GitHub
-                    </button>
+                    <a href="https://github.com/CreativeTeamCi/cilogos" target="_blank">
+                        <button class="crt__btn__contribute">
+                            <i class="fa fa-github"></i>
+                            &nbsp;
+                            Contribuer sur GitHub
+                        </button>
+                    </a>
+
                     <a href="{{route('submission.index')}}">
                         <button class="crt__btn__submission">
                             <i class="fa fa-paper-plane"></i>

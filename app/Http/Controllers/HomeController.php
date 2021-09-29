@@ -16,6 +16,7 @@ class HomeController extends Controller
         $data['business_logo']=BusinessLogo::
         join('activity_areas','activity_areas.id','business_logos.activity_areas_id')
         ->select('business_logos.*','activity_areas.libelle as activity_area')
+        ->where('status', 'valide')
         ->orderBy('business_name')
         ->limit(30)
         ->get();
