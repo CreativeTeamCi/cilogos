@@ -15,11 +15,12 @@
 .crt-loader div{
 	color:#FFFFFF;
 }
-.crt-loader div h1{
+.crt-loader div .load {
 	font-family:'Open Sans Condensed';
 	font-size:40px;
 	font-weight:700;
 	margin-bottom:10px;
+    display: block;
 }
 .crt-loader div p{
 	margin-top:10px;
@@ -192,7 +193,7 @@
 
 /* Main */
 .crt-main {
-	width: calc(56.2vw);
+	width: calc(80vw);
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;

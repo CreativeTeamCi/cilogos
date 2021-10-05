@@ -21,7 +21,7 @@ class SubmitLogosController extends Controller
     public function index()
     {
         $data['activity_areas'] = ActivityArea::orderBy('libelle','asc')->get();
-        return view('pages.soumission.index',$data);
+        return view('pages.soumission',$data);
     }
 
     /**

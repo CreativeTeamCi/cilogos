@@ -20,7 +20,7 @@ class HomeController extends Controller
         ->orderBy('business_name')
         ->limit(30)
         ->get();
-        return view('pages.accueil.index',$data);
+        return view('pages.accueil',$data);
         // return view('welcome');
     }
 

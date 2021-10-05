@@ -13,10 +13,10 @@ function checkActiveMode() {
     const modeActivated = localStorage.getItem('mode_activated');
     if (modeActivated === 'darkMode') {
         $("link[title]").attr("href","assets/css/dark_style.css");
-        $('.crt-theme-style a').text("Light Mode");
+        $('.crt-theme-style a').text("Mode claire");
     } else {
         $("link[title]").attr("href","assets/css/light_style.css");
-        $('.crt-theme-style a').text("Dark Mode");
+        $('.crt-theme-style a').text("Mode sombre");
     }
 }
 
@@ -61,12 +61,12 @@ $(".crt-header-search input[type='button']").on("click",function(){
 $(".crt-theme-style a").on("click",function(){
 	if ($("link[title]").attr("href") !== "assets/css/light_style.css") {
 		$("link[title]").attr("href","assets/css/light_style.css");
-        $(this).text("Dark Mode");
+        $(this).text("Mode sombre");
         localStorage.setItem('mode_activated', 'lightMode');
 	}
 	else {
 		$("link[title]").attr("href","assets/css/dark_style.css");
-        $(this).text("Light Mode");
+        $(this).text("Mode claire");
         localStorage.setItem('mode_activated', 'darkMode');
 	}
 });

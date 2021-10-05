@@ -45,18 +45,28 @@ input[type=button]:hover {
   float: left;
   width: 25%;
   margin-top: 6px;
+  padding:10px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding:10px;
 }
 
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
+  padding:10px;
 }
 
 .col-100 {
   float: left;
   width: 100%;
   margin-top: 6px;
+  padding:10px;
 }
 
 /* Clear floats after the columns */
