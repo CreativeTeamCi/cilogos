@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-100 business_name">
+                            <div class="col-100 business_name_slug">
                                 <label for="business_name" class="float-left">
                                     <b>Dénomination sociale de l'entreprise</b>
                                     <span class="text-danger">*</span>
@@ -123,7 +123,7 @@
                                 <select name="activity_areas_id">
                                     <option value="0">Choisir le secteur</option>
                                     @foreach ($activity_areas as $activity_area)
-                                        <option value="{{$activity_area->id}}">{{$activity_area->libelle}}</option>
+                                        <option value="{{$activity_area->id}}">{{$activity_area->label}}</option>
                                     @endforeach
                                 </select>
                             </div>

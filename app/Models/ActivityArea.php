@@ -12,7 +12,7 @@ class ActivityArea extends Model
     protected $table='activity_areas';
 
     protected $fillable= [
-        'libelle',
+        'label',
         'slug',
     ];
 }
