@@ -20,8 +20,8 @@ class SubmitLogosController extends Controller
      */
     public function index()
     {
-        $data['activity_areas'] = ActivityArea::orderBy('label','asc')->get();
-        return view('pages.soumission.index',$data);
+        $data['activity_areas'] = ActivityArea::orderBy('libelle','asc')->get();
+        return view('pages.soumission',$data);
     }
 
     /**
