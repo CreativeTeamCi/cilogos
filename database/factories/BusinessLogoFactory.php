@@ -32,7 +32,7 @@ class BusinessLogoFactory extends Factory
             'email'=>Str::slug($name).'.'.$this->faker->safeEmailDomain(),
             'logo_png'=>$this->faker->imageUrl(640, 480, $value, true),
             'logo_svg'=>$this->faker->imageUrl(640, 480, $value, true),
-            'status'=>'valide',
+            'status'=>'validated',
             'url'=>'http://creative-team.ci',
         ];
     }

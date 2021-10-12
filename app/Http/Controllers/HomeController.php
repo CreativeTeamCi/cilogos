@@ -15,8 +15,8 @@ class HomeController extends Controller
     {
         $data['business_logo']=BusinessLogo::
         join('activity_areas','activity_areas.id','business_logos.activity_areas_id')
-        ->select('business_logos.*','activity_areas.libelle as activity_area')
-        ->where('status', 'valide')
+        ->select('business_logos.*','activity_areas.label as activity_area')
+        ->where('status', 'validated')
         ->orderBy('business_name')
         ->limit(30)
         ->get();
@@ -36,11 +36,11 @@ class HomeController extends Controller
         $str = $request->search;
         $data=BusinessLogo::
         join('activity_areas','activity_areas.id','business_logos.activity_areas_id')
-        ->select('business_logos.*','activity_areas.libelle as activity_area')
+        ->select('business_logos.*','activity_areas.label as activity_area')
         ->where('business_name', 'like', '%'. $request->search . '%')
         ->orWhere('name', 'like', '%'. $request->search . '%')
-        ->orWhere('activity_areas.libelle', 'like', '%'. $request->search . '%')
-        ->where('status', 'valide')
+        ->orWhere('activity_areas.label', 'like', '%'. $request->search . '%')
+        ->where('status', 'validated')
         ->orderBy('business_name')
         ->offset($request->page*$limit)
         ->limit($limit)

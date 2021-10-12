@@ -72,7 +72,7 @@ class ActivityAreaSeeder extends Seeder
         //Uploading in Database
         foreach ($data as $activity) {
             ActivityArea::create([
-                'libelle'   =>$activity,
+                'label'   =>$activity,
                 'slug'      =>Str::slug($activity)
             ]);
         }

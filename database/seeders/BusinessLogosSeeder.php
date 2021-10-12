@@ -25,7 +25,7 @@ class BusinessLogosSeeder extends Seeder
             'url'                   =>'http://creative-team.ci/',
             'logo_png'              =>'storage/uploads/logos/png/agence-ssii/creative-team.png',
             'logo_svg'              =>'',
-            'status'                =>'valide',
+            'status'                =>'validated',
         ]);
 
         // - Généré 30 donnée

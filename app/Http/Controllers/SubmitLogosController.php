@@ -31,7 +31,7 @@ class SubmitLogosController extends Controller
      */
     public function activitiesArea()
     {
-        $data= ActivityArea::orderBy('libelle','asc')->get();
+        $data= ActivityArea::orderBy('label','asc')->get();
         return response()->json([
             'error'=>false,
             'message'=>'Liste des logos recherchés.',
@@ -94,13 +94,13 @@ class SubmitLogosController extends Controller
             'url'                   =>$request->url,
             'logo_png'              =>$this->uploadPNGLogo($request),
             'logo_svg'              =>$this->uploadSVGLogo($request),
-            'status'                =>'soumis',
+            'status'                =>'submitted',
         ]);
 
         // Sending Email
         try {
             Mail::to($request->email)
-            ->send(new SubmissionMail($businees_logo->toArray()));
+            ->send(new SubmissionMail($businees_logo));
             // - Save repport
             FailedMail::create([
                 'name' => $request->name,
@@ -121,17 +121,6 @@ class SubmitLogosController extends Controller
         }
 
         return response()->json(['message'=>"Votre logo a été soumis avec succès."],200);
-    }
-
-    public function testemail()
-    {
-        $data = [
-            'nom' => 'Alhassane',
-            'email' => 'alhassanesoro96@gmail.com',
-            'message' => 'Je voulais vous dire que votre site est magnifique !'
-        ];
-        Mail::to("alhassanesoro96@gmail.com")
-        ->send(new SubmissionMail($data));
     }
 
     public function uploadPNGLogo(Request $request){
